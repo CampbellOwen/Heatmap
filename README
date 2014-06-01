@@ -1,1 +1,2 @@
-Supports coordinates in format "lattitude,longitude," inside a tag. Check the source and edit the variables to match your situation 
+Supports coordinates in format "lattitude,longitude," inside a tag. Check the source and edit the variables to match your situation
+Requires python libraries heatmap (http://jjguy.com/heatmap/) and BeautifulSoup (http://www.crummy.com/software/BeautifulSoup/) 
