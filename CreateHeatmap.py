@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 Edit variables for appropriate file and settings
 '''
 filename = "graffiti.kml"
+outputName = "final.kml"
 tag = "coordinates"
 dotsize = 20
 opacity = 128
@@ -30,7 +31,7 @@ def GetCoordinates(file, tag):
 	
 def Generate_map(points):
 		hm.heatmap(points, dotsize, opacity, size, colourScheme, area)
-		hm.saveKML("final.kml")
+		hm.saveKML(outputName)
 		
 hm = heatmap.Heatmap()	
 points = GetCoordinates(filename, tag)
